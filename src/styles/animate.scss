@@ -1,0 +1,17 @@
+// 路由动画
+.router-enter-active,
+.router-leave-active {
+  transition: opacity 0.3s ease;
+}
+.router-enter-active {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.router-enter-from,
+.router-leave-to {
+  opacity: 0;
+}

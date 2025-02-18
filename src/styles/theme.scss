@@ -1,0 +1,56 @@
+// 自定义element-plus主题
+// https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #0084ff
+    )
+  ),
+  $text-color: (
+    "regular": #181818
+  ),
+  $border-radius: (
+    "base": 2px
+  ),
+  $common-component-size: (
+    "default": 36px
+  ),
+  $menu: (
+    "bg-color": "transparent",
+    "text-color": "#333",
+    "hover-bg-color": "rgba(0,148,255,0.06)",
+    "border-color": "none",
+    "horizontal-height": 40px,
+    "horizontal-sub-item-height": 40px,
+    "item-height": 40px,
+    "base-level-padding": 20px,
+    "icon-width": 18px
+  ),
+  $table: (
+    "header-text-color": #181818,
+    "header-bg-color": #f4f5f9,
+    "text-color": #181818
+  ),
+  $button: (
+    "font-weight": 400
+  ),
+  $checkbox: (
+    "font-weight": 400
+  ),
+  $dialog: (
+    "font-line-height": 22px,
+    "title-font-size": 16px,
+    "border-radius": 4px
+  ),
+  $drawer: (
+    "padding-primary": 16px 24px
+  ),
+  $radio-button: (
+    "checked-bg-color": "rgba(0,132,255,0.08)",
+    "checked-text-color": "#0084ff"
+  ),
+  $tabs: (
+    "header-height": 48px
+  )
+);

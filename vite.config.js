@@ -7,5 +7,10 @@ export default defineConfig({
     vue()
   ],
   css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler'
+      }
+    }
   }
 })
